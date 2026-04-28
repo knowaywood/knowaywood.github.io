@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">ATP project cover</title>
+  <desc id="desc">A custom project card cover for ATP.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#132b63"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="140" fill="#60a5fa" opacity="0.10"/>
+  <circle cx="1030" cy="590" r="190" fill="#5eead4" opacity="0.10"/>
+
+  <g opacity="0.22" stroke="#dbeafe" stroke-width="2">
+    <path d="M120 186 H1080"/>
+    <path d="M120 246 H1080"/>
+    <path d="M120 306 H1080"/>
+    <path d="M120 366 H1080"/>
+    <path d="M120 426 H1080"/>
+    <path d="M120 486 H1080"/>
+  </g>
+
+  <g stroke="url(#line)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 216 C338 186, 404 176, 486 206"/>
+    <path d="M486 206 C566 234, 598 304, 554 366"/>
+    <path d="M486 206 C596 162, 694 170, 804 232"/>
+    <path d="M804 232 C886 278, 908 350, 866 422"/>
+    <path d="M554 366 C632 402, 708 402, 778 370"/>
+    <path d="M554 366 C500 446, 420 470, 318 440"/>
+    <path d="M318 440 C270 426, 240 398, 224 364"/>
+  </g>
+
+  <g fill="#e0f2fe" stroke="#dbeafe" stroke-width="5">
+    <circle cx="224" cy="216" r="26"/>
+    <circle cx="486" cy="206" r="30"/>
+    <circle cx="804" cy="232" r="28"/>
+    <circle cx="554" cy="366" r="28"/>
+    <circle cx="866" cy="422" r="26"/>
+    <circle cx="778" cy="370" r="24"/>
+    <circle cx="318" cy="440" r="24"/>
+    <circle cx="224" cy="364" r="20"/>
+  </g>
+
+  <g fill="#0f172a" font-family="Georgia, serif" font-size="28">
+    <text x="198" y="222">∀</text>
+    <text x="472" y="214">⊢</text>
+    <text x="791" y="241">λ</text>
+    <text x="542" y="374">?</text>
+    <text x="854" y="430">✓</text>
+    <text x="766" y="378">→</text>
+    <text x="306" y="448">∃</text>
+    <text x="214" y="372">×</text>
+  </g>
+
+  <rect x="120" y="514" width="960" height="108" rx="26" fill="#08111f" opacity="0.78"/>
+  <g fill="#f8fafc" font-family="Georgia, serif">
+    <text x="120" y="584" font-size="82" font-weight="700">ATP</text>
+    <text x="356" y="584" font-size="30" opacity="0.92">LLM-guided theorem proving for Lean</text>
+  </g>
+
+  <rect x="874" y="126" width="178" height="114" rx="24" fill="url(#card)" opacity="0.96"/>
+  <g stroke="#0f766e" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M914 164 H1008"/>
+    <path d="M914 194 H980"/>
+  </g>
+  <g fill="#2563eb">
+    <rect x="914" y="212" width="78" height="12" rx="6"/>
+  </g>
+</svg>

@@ -241,6 +241,20 @@ params:
           - icon: fab fa-github
             url: https://github.com/knowaywood/overview
 
+      - title: ATP
+        content: An ATP workbench for Lean theorem proving that uses LLM-guided proof search to generate, execute, and verify candidate proofs.
+        image: /images/projects/atp.svg
+        featured:
+          name: GitHub
+          link: https://github.com/knowaywood/ATP
+        badges:
+          - "Lean"
+          - "LLM"
+          - "ATP"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/knowaywood/ATP
+
       - title: Modern Python Docs
         content: A documentation project and practical guide to modern Python development. The published docs cover project setup, testing, linting, typing, documentation.
         image: /images/projects/modern-python-docs.svg

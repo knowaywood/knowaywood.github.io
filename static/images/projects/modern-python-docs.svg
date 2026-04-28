@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Modern Python Docs project cover</title>
+  <desc id="desc">A custom project card cover for Modern Python Docs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="180" cy="160" r="110" fill="#93c5fd" opacity="0.24"/>
+  <circle cx="1010" cy="560" r="150" fill="#60a5fa" opacity="0.16"/>
+  <rect x="180" y="150" width="840" height="420" rx="28" fill="#ffffff" opacity="0.98" stroke="#bfdbfe" stroke-width="6"/>
+  <rect x="240" y="205" width="260" height="310" rx="18" fill="url(#book)"/>
+  <rect x="295" y="180" width="150" height="30" rx="10" fill="#fbbf24"/>
+  <g fill="#dbeafe">
+    <rect x="290" y="260" width="155" height="12" rx="6"/>
+    <rect x="290" y="300" width="110" height="12" rx="6"/>
+    <rect x="290" y="340" width="145" height="12" rx="6"/>
+  </g>
+  <g fill="#1e40af">
+    <rect x="570" y="235" width="340" height="26" rx="10"/>
+    <rect x="570" y="295" width="280" height="18" rx="8" opacity="0.88"/>
+    <rect x="570" y="340" width="320" height="18" rx="8" opacity="0.8"/>
+    <rect x="570" y="385" width="230" height="18" rx="8" opacity="0.72"/>
+    <rect x="570" y="455" width="150" height="54" rx="14" fill="#3b82f6"/>
+  </g>
+  <g fill="#0f172a" font-family="Georgia, serif">
+    <text x="120" y="635" font-size="66" font-weight="700">Modern Python Docs</text>
+    <text x="120" y="683" font-size="28" opacity="0.75">Documentation, tooling, testing, typing, and modern Python practice</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">overview project cover</title>
+  <desc id="desc">A custom project card cover for overview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#cffafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1040" cy="130" r="120" fill="#67e8f9" opacity="0.18"/>
+  <circle cx="210" cy="610" r="150" fill="#99f6e4" opacity="0.12"/>
+  <rect x="110" y="120" width="330" height="430" rx="26" fill="url(#card)" opacity="0.94"/>
+  <rect x="480" y="160" width="280" height="110" rx="22" fill="#134e4a" opacity="0.88"/>
+  <rect x="480" y="310" width="500" height="70" rx="18" fill="#115e59" opacity="0.82"/>
+  <rect x="480" y="410" width="420" height="70" rx="18" fill="#0f766e" opacity="0.78"/>
+  <rect x="480" y="510" width="330" height="70" rx="18" fill="#14b8a6" opacity="0.78"/>
+  <g stroke="#0f766e" stroke-width="7" fill="none">
+    <path d="M180 205 H365"/>
+    <path d="M180 275 H365"/>
+    <path d="M180 345 H365"/>
+    <path d="M180 415 H300"/>
+  </g>
+  <g stroke="#99f6e4" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M440 215 C510 215, 510 215, 580 215"/>
+    <path d="M760 215 C830 215, 830 345, 980 345"/>
+    <path d="M760 215 C830 215, 830 445, 900 445"/>
+    <path d="M760 215 C820 215, 820 545, 810 545"/>
+  </g>
+  <g fill="#f0fdfa" font-family="Georgia, serif">
+    <text x="110" y="630" font-size="76" font-weight="700">overview</text>
+    <text x="110" y="682" font-size="28" opacity="0.9">OCR, metadata, retrieval, and research workflow orchestration</text>
+  </g>
+</svg>

@@ -215,7 +215,7 @@ params:
     items:
       - title: lean2graph
         content: An early-stage Lean and Python project exploring how Lean-related structures can be represented and visualized as graphs. Based on the current public repo, it is still in a scaffold phase, with Lean files, a Python package, and Graphviz already wired in.
-        image: /images/projects/profile.png
+        image: /images/projects/lean2graph.svg
         featured:
           name: GitHub
           link: https://github.com/knowaywood/lean2graph
@@ -229,7 +229,7 @@ params:
 
       - title: overview
         content: An AI-assisted research workflow project built around LangGraph and related tooling. Its current README focuses on PDF-to-Markdown OCR, arXiv search, paper metadata extraction, paper structure analysis, and graph visualization for compiled agent workflows.
-        image: /images/projects/converter.jpg
+        image: /images/projects/overview.svg
         featured:
           name: GitHub
           link: https://github.com/knowaywood/overview
@@ -243,7 +243,7 @@ params:
 
       - title: Modern Python Docs
         content: A documentation project and practical guide to modern Python development. The published docs cover project setup, testing, linting, typing, documentation.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/modern-python-docs.svg
         featured:
           name: Read Online
           link: http://modern-python-docs.readthedocs.io/

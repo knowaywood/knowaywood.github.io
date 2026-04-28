@@ -1,3 +1,4 @@
 ---
-title: "Blogs"
+title: "Blog"
+description: "Posts and notes"
 ---
